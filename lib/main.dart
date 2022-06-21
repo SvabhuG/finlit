@@ -1,4 +1,5 @@
 import 'package:finlit/login.dart';
+import 'package:finlit/welcome.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LoginPage(),
+      home: WelcomePage(),
       theme: ThemeData(
         textTheme: Theme.of(context).textTheme.apply(
           bodyColor: Colors.white,
